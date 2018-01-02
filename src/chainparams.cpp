@@ -111,9 +111,9 @@ public:
         // By default assume that the signatures in ancestors of this block are valid.
         consensus.defaultAssumeValid = uint256S("0x0000000000000000003b9ce759c2a087d52abc4266f8f4ebd6d768b89defa50a"); //477890
 
-        consensus.hardforkHeight = 501451;
-        consensus.premineAddress = "18wFZB62chDhYdapBnVEXX4y9hUvWs8yRu";
-        consensus.premineValue = 2000000 * COIN;
+        consensus.hardforkHeight = 502217; //should be changed appropriately <3
+        consensus.premineAddress = "17SSTYR7KvC4DkX3jvhSRCStk9m6PmxSBK";
+        consensus.premineValue = 240000 * COIN; //for the devs to continue working, well not as greedy as b2x loool!
 
         /**
          * The message start string is designed to be unlikely to occur in normal data.
