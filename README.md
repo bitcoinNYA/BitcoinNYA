@@ -1,18 +1,16 @@
-Bitcoin2X Core integration/staging tree
+BitcoinNYA Core integration/staging tree
 =====================================
 
-http://b2x-segwit.io/
-
-What is Bitcoin2X?
+What is BitcoinNYA?
 ----------------
 
-Bitcoin2X is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. Bitcoin2X uses peer-to-peer technology to operate
+BitcoinNYA is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. BNYA uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Bitcoin2X Core is the name of open source
+out collectively by the network. BitcoinNYA Core is the name of open source
 software which enables the use of this currency.
 
-Building Bitcoin2X Core
+Building BitcoinNYA Core
 ----------
 
 ### Build on Ubuntu
@@ -26,8 +24,8 @@ Building Bitcoin2X Core
     # To build the Qt GUI:
     sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
 
-    git clone https://github.com/SegwitB2X/bitcoin2x.git
-    cd bitcoin2x
+    git clone https://github.com/bitcoinNYA/bitcoinNYA
+    cd bitcoinNYA
 
     ./autogen.sh
     ./configure 
