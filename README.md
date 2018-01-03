@@ -24,6 +24,8 @@ Building BitcoinNYA Core
     # To build the Qt GUI:
     sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev protobuf-compiler
 
+    apt-get install git
+    
     git clone https://github.com/bitcoinNYA/bitcoinNYA
     cd bitcoinNYA
 
