@@ -1,16 +1,16 @@
-BitcoinNYA Core integration/staging tree
+BitcoinGS2X Core integration/staging tree
 =====================================
 
-What is BitcoinNYA?
+What is BitcoinGS2X?
 ----------------
 
-BitcoinNYA is an experimental digital currency that enables instant payments to
-anyone, anywhere in the world. BNYA uses peer-to-peer technology to operate
+BitcoinGS2X is an experimental digital currency that enables instant payments to
+anyone, anywhere in the world. GS2X uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
 out collectively by the network. BitcoinNYA Core is the name of open source
 software which enables the use of this currency.
 
-Building BitcoinNYA Core
+Building BitcoinGS2X Core
 ----------
 
 ### Build on Ubuntu
@@ -26,8 +26,8 @@ Building BitcoinNYA Core
 
     apt-get install git
     
-    git clone https://github.com/bitcoinNYA/bitcoinNYA
-    cd bitcoinNYA
+    git clone [this repo]
+    cd BitcoinGS2X
 
     ./autogen.sh
     ./configure 
